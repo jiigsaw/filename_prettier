@@ -24,3 +24,4 @@ for filename in glob.glob(match_files):
 # We use a n
 for filename in glob.glob(match_files):
     Match_regex.rename_hyphen_doubles(filename)
+print "finish"
